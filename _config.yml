@@ -62,10 +62,8 @@ plugins:
 
 author:
   name   : "Beth O'Dwyer"
-  avatar : "/assets/images/P1082653.jpg"
-  bio    : "Passionate about working with data in all forms.Relevant skills include programming, machine learning,
-            data visualization and problem solving. Excellent communication skills developed through working in a
-            multi-disciplinary team and research collaborations across the globe."
+  avatar : "/elodwyer_portfolio_website/assets/images/P1082653.jpg"
+  bio    : ""
   links:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
@@ -94,7 +92,7 @@ defaults:
       path: "_pages"
       type: pages
     values:
-      layout: splash
+      layout: single
       author_profile: true
 
 category_archive:
