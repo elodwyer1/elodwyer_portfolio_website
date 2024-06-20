@@ -7,10 +7,10 @@ header:
   overlay_image: /assets/images/Colorful Pastel Modern Personal LinkedIn Banner (1584 x 200 px).png
 ---
 # Data Scientist 
-#### elodwyer@tcd.ie · [linkedin.com/in/elodwyer](https://www.linkedin.com/in/elodwyer/) · [github.com/elodwyer1](https://github.com/elodwyer1)
-Passionate about working with data in all forms.\
+#### odwyerbeth621@gmail.com · [linkedin.com/in/elodwyer](https://www.linkedin.com/in/elodwyer/) · [github.com/elodwyer1](https://github.com/elodwyer1)
+<center>Passionate about working with data in all forms.\
 Relevant skills include programming, machine learning,
-data visualization and problem solving. Excellent communication skills developed through working in a multi-disciplinary team and research collaborations across the globe.
+data visualization and problem solving. Excellent communication skills developed through working in a multi-disciplinary team and research collaborations across the globe.<\center>
 ### Skills
 Backend: Python · R · SQL · FAST-API\
 Data Science/ML: TensorFlow · Keras · Pandas · Numpy · Matplotlib · ScikitLearn\
