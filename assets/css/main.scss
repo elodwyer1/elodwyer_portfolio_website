@@ -1,9 +1,11 @@
-@charset "utf-8";
-// Add this to your main.scss or relevant SCSS file
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
 
-// Define a media query for larger screens (min-width: 80em)
-// Import skin and main partials from the theme
+@charset "utf-8";
+
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
+
 /* system typefaces */
 $serif: Lora, Georgia, Times, serif !default;
 $sans-serif: -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI",
@@ -42,10 +44,11 @@ $h-size-3: 1.125em !default;
 $h-size-4: 1.0625em !default;
 $h-size-5: 1.03125em !default;
 $h-size-6: 1em !default;
-@import "minimal-mistakes"; // main partials
+
+@import "minimal-mistakes";
 
 html {
-    font-size: 12px; // change to whatever
+    font-size: 14px; // change to whatever
   
     @include breakpoint($medium) {
       font-size: 16px; // change to whatever
