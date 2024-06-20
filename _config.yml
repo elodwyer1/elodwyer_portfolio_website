@@ -88,15 +88,15 @@ footer:
 defaults:
   # _posts
   - scope:
-      path: ""
+      path: "posts"
       type: posts
     values:
       layout: posts
       author_profile: true
-      read_time: true
-      comments: true
-      share: true
-      related: true
+      read_time: False
+      comments: False
+      share: False
+      related: False
   # _pages
   - scope:
       path: "_pages"
