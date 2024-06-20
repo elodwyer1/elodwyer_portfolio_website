@@ -1,10 +1,5 @@
 @charset "utf-8";
 
-@media (min-width: 80em) {
-    .author__avatar {
-        min-width: 80em;
-    }
-}
 
 // Import skin and main partials from the theme
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
