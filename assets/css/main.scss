@@ -7,21 +7,6 @@
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes";
 
-html {
-    font-size: 14px; // change to whatever
-  
-    @include breakpoint($medium) {
-      font-size: 14px; // change to whatever
-    }
-  
-    @include breakpoint($large) {
-      font-size: 14px; // change to whatever
-    }
-  
-    @include breakpoint($x-large) {
-      font-size: 14px; // change to whatever
-    }
-  }
 .author__avatar {
   // Adjust the container if needed
   display: flex;  // Ensures the container behaves as a block element and centers the image if required
