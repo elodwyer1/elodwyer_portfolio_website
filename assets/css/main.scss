@@ -2,37 +2,23 @@
 // Add this to your main.scss or relevant SCSS file
 
 // Define a media query for larger screens (min-width: 80em)
-@media (min-width: 80em) {
-  .author__avatar {
-    display: table-cell;
-    vertical-align: top;
-    width: 80px; // Original: 36px
-    height: 80px; // Original: 36px
-
-    img {
-      max-width: 175px; // Original: 110px
-      border-radius: 50%;
-      
-      // Optional additional styles for larger screens
-      padding: 5px;
-      border: 1px solid $border-color; // Ensure $border-color is defined
-    }
-  }
-}
-
-// Define styles for smaller screens or default styles
-.author__avatar {
-  display: block; // Block display for smaller screens
-  width: 60px; // Adjust this as needed for smaller screens
-  height: 60px; // Adjust this as needed for smaller screens
-
-  img {
-    max-width: 100px; // Adjust this as needed for smaller screens
-    border-radius: 50%;
-  }
-}
-
-
 // Import skin and main partials from the theme
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
+
 @import "minimal-mistakes"; // main partials
+
+html {
+    font-size: 12px; // change to whatever
+  
+    @include breakpoint($medium) {
+      font-size: 16px; // change to whatever
+    }
+  
+    @include breakpoint($large) {
+      font-size: 18px; // change to whatever
+    }
+  
+    @include breakpoint($x-large) {
+      font-size: 20px; // change to whatever
+    }
+  }
