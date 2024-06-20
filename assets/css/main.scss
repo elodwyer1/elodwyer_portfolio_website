@@ -46,7 +46,13 @@ $h-size-5: 1.03125em !default;
 $h-size-6: 1em !default;
 
 @import "minimal-mistakes";
-
+.page__content {
+  p,
+  li,
+  dl {
+    font-size: 0.75em;
+  }
+}
 html {
     font-size: 8px; // change to whatever
   
