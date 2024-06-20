@@ -1,80 +1,84 @@
 ---
-layout: default
+layout: single
+permalink: /
+hidden: true
+title: ""
+classes: wide
+header:
+  caption: " "
+  overlay_image: /assets/images/Colorful Pastel Modern Personal LinkedIn Banner (1584 x 200 px).png
+
 ---
+<p>Passionate about working with data in all forms.<br>
+Relevant skills include programming, machine learning,
+data visualization and problem solving. Excellent communication skills developed through working in a multi-disciplinary team and research collaborations across the globe.</p>
 
-{% if page.header.overlay_color or page.header.overlay_image or page.header.image %}
-  {% include page__hero.html %}
-{% elsif page.header.video.id and page.header.video.provider %}
-  {% include page__hero_video.html %}
-{% endif %}
+<h3>Skills</h3>
+<ul>
+  <li>Backend: Python · R · SQL · FAST-API</li>
+  <li>Data Science/ML: TensorFlow · Keras · Pandas · Numpy · Matplotlib · ScikitLearn</li>
+  <li>DevOps: Git · Azure Devops · MLFlow</li>
+  <li>Other: Docker · Microsoft Azure</li>
+</ul>
 
-{% assign breadcrumbs_enabled = site.breadcrumbs %}
-{% if page.breadcrumbs != null %}
-  {% assign breadcrumbs_enabled = page.breadcrumbs %}
-{% endif %}
-{% if page.url != "/" and breadcrumbs_enabled %}
-  {% unless paginator %}
-    {% include breadcrumbs.html %}
-  {% endunless %}
-{% endif %}
+<h3>Education</h3>
+<h4>Msc Statistics (Research) September 2021 - September 2023</h4>
+<p>Scholarship funded by Science Foundation Ireland (SFI).<br>
+Maynooth University, Maynooth, Kildare, Ireland & Dublin Institute of Advanced Studies, Dublin Ireland.</p>
 
-<div id="main" role="main">
-  {% include sidebar.html %}
+<h4>BA Physical Sciences, 1:1 September 2019 - May 2021</h4>
+<p>Trinity College Dublin, Ireland.</p>
 
-  <article class="page" itemscope itemtype="https://schema.org/CreativeWork"{% if page.locale %} lang="{{ page.locale }}"{% endif %}>
-    {% if page.title %}<meta itemprop="headline" content="{{ page.title | replace: '|', '&#124;' | markdownify | strip_html | strip_newlines | escape_once }}">{% endif %}
-    {% if page.excerpt %}<meta itemprop="description" content="{{ page.excerpt | markdownify | strip_html | strip_newlines | escape_once }}">{% endif %}
-    {% if page.date %}<meta itemprop="datePublished" content="{{ page.date | date_to_xmlschema }}">{% endif %}
-    {% if page.last_modified_at %}<meta itemprop="dateModified" content="{{ page.last_modified_at | date_to_xmlschema }}">{% endif %}
+<h3>Work Experience</h3>
+<h4>Ireland’s Centre for Applied AI, University College Dublin.</h4>
+<p>Graduate Data Scientist January 2024 - Present.</p>
+<ul>
+  <li>Enhanced internal support team productivity by developing GPT-backed chatbot for replying to emails.</li>
+  <li>Lead data pipeline development for chatbot with RAG implementation using azure resources (durable functions, blob storage).</li>
+  <li>Responsible for data indexing, prompting, system message and testing of chatbot.</li>
+  <li>Advocated for source control on my team.</li>
+</ul>
+<p>Technologies: Python, Microsoft Azure, OpenAI, FAST-API, Docker.</p>
 
-    <div class="page__inner-wrap">
-      {% unless page.header.overlay_color or page.header.overlay_image %}
-        <header>
-          {% if page.title -%}
-          <h1 id="page-title" class="page__title" itemprop="headline">
-            <a href="{{ page.url | absolute_url }}" itemprop="url">{{ page.title | markdownify | remove: "<p>" | remove: "</p>" }}</a>
-          </h1>
-          {%- endif %}
-          {% include page__meta.html %}
-        </header>
-      {% endunless %}
+<h3>Publications</h3>
+<p>Can be found with orcid id <a href="https://orcid.org/0000-0003-3780-4953">0000-0003-3780-4953</a>.</p>
+<ul>
+  <li>O’Dwyer, E. P., Jackman, C. M., Domijan, K., Lamy, L., & Louis, C. K. (2023). A Selection of Low Frequency Extensions of Saturn Kilometric Radiation., In C. K. Louis, C. M. Jackman, G. Fischer, A. H. Sulaiman, P. Zucca, Dublin Institute for Advanced Studies (Eds.), <em>Planetary, Solar and Heliospheric Radio Emissions IX</em>, <a href="https://doi.org/10.25546/103103">https://doi.org/10.25546/103103</a></li>
+  <li>O’Dwyer, E. P., Jackman, C. M., Domijan, K. & Lamy, L. (2023). Image-Based Classification of Intense Radio Bursts from Spectrograms: An Application to Saturn Kilometric Radiation, <em>Journal of Geophysical Research: Space Physics</em>, 128, <a href="https://doi.org/10.1029/2023JA031926">https://doi.org/10.1029/2023JA031926</a></li>
+  <li>Jackman, C. M., O'Dwyer, E. P., Louis, C. K., Fogg, A. R., Waters, J. E., Lamy, L., Using crossings of Saturn's magnetospheric boundaries to explore the link between upstream conditions and radio emission., In C. K. Louis, C. M. Jackman, G. Fischer, A. H. Sulaiman, P. Zucca (2023), Dublin Institute for Advanced Studies (Eds.), <em>Planetary, Solar and Heliospheric Radio Emissions IX</em>, <a href="https://doi.org/10.25546/103100">https://doi.org/10.25546/103100</a></li>
+  <li>Wu, S. Y., Ye, S. Y., Fischer, G., Taubenschuss, U., Jackman, C. M. & O'Dwyer, E., et al. (2022). Saturn Anomalous Myriametric radiation, a new type of Saturn radio emission revealed by Cassini. <em>Geophysical Research Letters</em>, 49, <a href="https://doi.org/10.1029/2022GL099237">https://doi.org/10.1029/2022GL099237</a></li>
+  <li>Louis, C.K, Jackman C.M., Mangham S., Smith K., O’Dwyer, E., Empey A., Cecconi B., Boudouma A., Zarka P. & Maloney S. (2022). The “SPectrogram Analysis and Cataloguing Environment” (SPACE) Labelling Tool., <em>Frontiers in Astronomy and Space Science</em>, 9, <a href="https://www.frontiersin.org/articles/10.3389/fspas.2022.1001166">https://www.frontiersin.org/articles/10.3389/fspas.2022.1001166</a></li>
+</ul>
 
-      <section class="page__content" itemprop="text">
-        {% if page.toc %}
-          <aside class="sidebar__right {% if page.toc_sticky %}sticky{% endif %}">
-            <nav class="toc">
-              <header><h4 class="nav__title"><i class="fas fa-{{ page.toc_icon | default: 'file-alt' }}"></i> {{ page.toc_label | default: site.data.ui-text[site.locale].toc_label | default: "On this page" }}</h4></header>
-              {% include toc.html sanitize=true html=content h_min=1 h_max=6 class="toc__menu" skip_no_ids=true %}
-            </nav>
-          </aside>
-        {% endif %}
-        {{ content }}
-        {% if page.link %}<div><a href="{{ page.link }}" class="btn btn--primary">{{ site.data.ui-text[site.locale].ext_link_label | default: "Direct Link" }}</a></div>{% endif %}
-      </section>
+<h3>Conferences and Presentations</h3>
+<h4>Oral Presentations</h4>
+<ul>
+  <li>Planetary, Heliospheric and Solar Radio Emissions Meeting (September 2022)</li>
+  <li>Atlantic/Asia-Pacific Radio Science Meeting (May 2022).</li>
+</ul>
 
-      <footer class="page__meta">
-        {% if site.data.ui-text[site.locale].meta_label %}
-          <h4 class="page__meta-title">{{ site.data.ui-text[site.locale].meta_label }}</h4>
-        {% endif %}
-        {% include page__taxonomy.html %}
-        {% include page__date.html %}
-      </footer>
+<h4>Poster Presentations</h4>
+<ul>
+  <li>Magnetospheres of the Outer Planets Conference (July 2022).</li>
+  <li>Machine Learning in Heliophysics Conference (March 2022).</li>
+  <li>Magnetospheres Ionospheres and Solar Terrestrial Physics Autumn Meeting (November 2021).</li>
+</ul>
 
-      {% if page.share %}{% include social-share.html %}{% endif %}
+<h4>Attendee</h4>
+<ul>
+  <li>Conference for Undergraduate Women in Physics UK (March 2019).</li>
+</ul>
 
-      {% include post_pagination.html %}
-    </div>
-
-    {% if jekyll.environment == 'production' and site.comments.provider and page.comments %}
-      {% include comments.html %}
-    {% endif %}
-  </article>
-
-  {% comment %}<!-- only show related on a post page when `related: true` -->{% endcomment %}
-  {% if page.id and page.related and site.related_posts.size > 0 %}
-    {% include page__related.html posts=site.related_posts %}
-  {% comment %}<!-- otherwise show recent posts if no related when `related: true` -->{% endcomment %}
-  {% elsif page.id and page.related %}
-    {% include page__related.html posts=site.posts %}
-  {% endif %}
-</div>
+<h3>Courses Completed</h3>
+<ul>
+  <li>SCRUM Master (PS1)</li>
+  <li>DataTalks MLOps Course</li>
+  <li>CeADAR Generative AI for Business Course</li>
+  <li>DCM learning courses:
+    <ul>
+      <li>Technical writing</li>
+      <li>Presentation skills</li>
+      <li>GDPR training</li>
+    </ul>
+  </li>
+</ul>
