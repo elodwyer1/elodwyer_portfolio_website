@@ -6,13 +6,7 @@
 
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes";
-.page__content {
-  p,
-  li,
-  dl {
-    font-size: 0.9em;
-  }
-}
+
 html {
     font-size: 8px; // change to whatever
   
