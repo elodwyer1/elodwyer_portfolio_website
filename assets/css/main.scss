@@ -1,4 +1,18 @@
 @charset "utf-8";
+.author__avatar {
+    // Optional: additional styles for the container
+}
+
+.author__avatar .u-photo {
+    width: 100px; /* Adjust width as needed */
+    height: auto; /* Maintain aspect ratio */
+}
+
+/* Or, more specific targeting */
+.author__avatar img {
+    width: 100px; /* Adjust width as needed */
+    height: auto; /* Maintain aspect ratio */
+}
 
 
 // Import skin and main partials from the theme
