@@ -8,9 +8,9 @@ header:
 ---
 # Data Scientist 
 #### odwyerbeth621@gmail.com · [linkedin.com/in/elodwyer](https://www.linkedin.com/in/elodwyer/) · [github.com/elodwyer1](https://github.com/elodwyer1)
-<center>Passionate about working with data in all forms.\
+Passionate about working with data in all forms.\
 Relevant skills include programming, machine learning,
-data visualization and problem solving. Excellent communication skills developed through working in a multi-disciplinary team and research collaborations across the globe.<\center>
+data visualization and problem solving. Excellent communication skills developed through working in a multi-disciplinary team and research collaborations across the globe.
 ### Skills
 Backend: Python · R · SQL · FAST-API\
 Data Science/ML: TensorFlow · Keras · Pandas · Numpy · Matplotlib · ScikitLearn\
