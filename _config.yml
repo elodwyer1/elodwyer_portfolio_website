@@ -64,7 +64,7 @@ plugins:
 author:
   name   : "Beth O'Dwyer"
   avatar : "/assets/images/logo.png"
-  bio    : "Data Science | ML | Visualisation"
+  bio    : ""
   links:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
