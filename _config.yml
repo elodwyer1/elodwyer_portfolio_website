@@ -26,7 +26,7 @@ search: true
 
 header:
   title: ""
-  image: /assets/images/Colorful Pastel Modern Personal LinkedIn Banner (1584 x 200 px).png
+  image: "/assets/images/Colorful Pastel Modern Personal LinkedIn Banner (1584 x 200 px).png"
 
 # Build settings
 markdown: kramdown
@@ -63,7 +63,7 @@ plugins:
 
 author:
   name   : "Beth O'Dwyer"
-  avatar : "/assets/images/P1082653.JPG"
+  avatar : "/assets/images/logo.png"
   bio    : ""
   links:
     - label: "GitHub"
@@ -74,7 +74,6 @@ author:
       url: "https://www.linkedin.com/in/elodwyer/"
     - label: "odwyerbeth621@gmail.com"
       icon: "fa-solid fa-envelope"
-      url: <a href="mailto:odwyerbeth621@gmail.com"></a>
 
 footer:
   links:
