@@ -63,18 +63,27 @@ plugins:
 
 author:
   name   : "Beth O'Dwyer"
-  avatar : "/elodwyer_portfolio_website/assets/images/P1082653.JPG"
+  avatar : "/assets/images/P1082653.JPG"
   bio    : ""
   links:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
+      url: "https://github.com/elodwyer1"
+    - label: "LinkedIn"
+      icon: "fa-brands fa-linkedin"
+      url: "https://www.linkedin.com/in/elodwyer/"
+    - label: "odwyerbeth621@gmail.com"
+      icon: "fa-solid fa-envelope"
+      url: <a href="mailto:odwyerbeth621@gmail.com"></a>
 
 footer:
   links:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
+      url: "https://github.com/elodwyer1"
+    - label: "LinkedIn"
+      icon: "fa-brands fa-linkedin"
+      url: "https://www.linkedin.com/in/elodwyer/"
 
 defaults:
   # _posts
