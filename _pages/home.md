@@ -6,7 +6,6 @@ header:
   title: " "
   overlay_image: /assets/images/Colorful Pastel Modern Personal LinkedIn Banner (1584 x 200 px).png
 ---
-
 Passionate about working with data in all forms.\
 Relevant skills include programming, machine learning,
 data visualization and problem solving. Excellent communication skills developed through working in a multi-disciplinary team and research collaborations across the globe.
