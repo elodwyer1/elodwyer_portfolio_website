@@ -3,6 +3,7 @@ layout: splash
 permalink: /
 hidden: true
 header:
+  title: ""
   overlay_image: /assets/images/Colorful Pastel Modern Personal LinkedIn Banner (1584 x 200 px).png
 ---
 # Data Scientist 
