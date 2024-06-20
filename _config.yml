@@ -86,6 +86,14 @@ footer:
       url: "https://www.linkedin.com/in/elodwyer/"
 
 defaults:
+ #_portfolio
+  - scope:
+      path: ""
+      type: projects
+    values:
+      layout: single
+      author_profile: false
+      share: true
   # _posts
   - scope:
       path: "posts"
@@ -104,7 +112,10 @@ defaults:
     values:
       layout: single
       author_profile: true
-
+collections:
+  projects:
+    output: true
+    permalink: /:collection/:path/
 category_archive:
   type: liquid
   path: /categories/
