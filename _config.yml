@@ -24,6 +24,9 @@ github_username: username
 minimal_mistakes_skin: default
 search: true
 
+header:
+  image: /assets/images/Colorful Pastel Modern Personal LinkedIn Banner (1584 x 200 px).png
+
 # Build settings
 markdown: kramdown
 remote_theme: mmistakes/minimal-mistakes
