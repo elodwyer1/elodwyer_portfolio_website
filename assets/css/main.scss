@@ -1,17 +1,35 @@
 @charset "utf-8";
+// Add this to your main.scss or relevant SCSS file
+
+// Define a media query for larger screens (min-width: 80em)
+@media (min-width: 80em) {
+  .author__avatar {
+    display: table-cell;
+    vertical-align: top;
+    width: 80px; // Original: 36px
+    height: 80px; // Original: 36px
+
+    img {
+      max-width: 175px; // Original: 110px
+      border-radius: 50%;
+      
+      // Optional additional styles for larger screens
+      padding: 5px;
+      border: 1px solid $border-color; // Ensure $border-color is defined
+    }
+  }
+}
+
+// Define styles for smaller screens or default styles
 .author__avatar {
-    // Optional: additional styles for the container
-}
+  display: block; // Block display for smaller screens
+  width: 60px; // Adjust this as needed for smaller screens
+  height: 60px; // Adjust this as needed for smaller screens
 
-.author__avatar .u-photo {
-    width: 100px; /* Adjust width as needed */
-    height: auto; /* Maintain aspect ratio */
-}
-
-/* Or, more specific targeting */
-.author__avatar img {
-    width: 100px; /* Adjust width as needed */
-    height: auto; /* Maintain aspect ratio */
+  img {
+    max-width: 100px; // Adjust this as needed for smaller screens
+    border-radius: 50%;
+  }
 }
 
 
