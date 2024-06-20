@@ -25,6 +25,7 @@ minimal_mistakes_skin: default
 search: true
 
 header:
+  title: ""
   image: /assets/images/Colorful Pastel Modern Personal LinkedIn Banner (1584 x 200 px).png
 
 # Build settings
@@ -62,7 +63,7 @@ plugins:
 
 author:
   name   : "Beth O'Dwyer"
-  avatar : "/elodwyer_portfolio_website/assets/images/P1082653.jpg"
+  avatar : "/elodwyer_portfolio_website/assets/images/P1082653.JPG"
   bio    : ""
   links:
     - label: "GitHub"
