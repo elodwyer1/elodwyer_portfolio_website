@@ -2,6 +2,9 @@
 title: "The forest color palette"
 excerpt: "Creating a Custom Color Palette Package in Python"
 layout: single
+header:
+  caption: " "
+  overlay_image: /assets/images/Colorful Pastel Modern Personal LinkedIn Banner (1584 x 200 px).png
 ---
 
 
@@ -32,19 +35,18 @@ To package the color palette for easy integration with Python projects, I struct
         'forest_green': '#228B22',
         'deep_brown': '#5F4B32',
         'serene_blue': '#6CA6CD',
-        'foliage_green': '#7CFC00',
-        # Add more colors as needed
-    }
+        'foliage_green': '#7CFC00'}
+        
 #### 4. Integration with matplotlib
 To enhance usability, I ensured compatibility with matplotlib, a popular plotting library in Python. Users can seamlessly integrate "The Forest Palette" into their visualizations with minimal setup.
 
 Packaging and Distribution
 1. Creating a Python Package\
-Using setuptools, I created a distributable Python package that includes the color definitions and any necessary metadata.\
+Using setuptools, I created a distributable Python package that includes the color definitions and any necessary metadata.
 
 2. Publishing on PyPI\
 I uploaded the package to [PyPI](https://pypi.org/project/the-forest-palette/1.0.1/) (Python Package Index) to make it accessible to the Python community. Developers and data scientists can now install and use "The Forest Palette" in their projects with a simple pip install the-forest-palette.
-![image-center]({{'/assets/images/pypi_forestpalette.png'| relative_url }}){: .align-center}
+![image-center]({{'/assets/images/pypi-forestpalette.png'| relative_url }}){: .align-center}
 #### 5. Hosting on GitHub
 The source code for "The Forest Palette" is hosted on [GitHub](https://github.com/elodwyer1/the-forest-palette), allowing users to explore the code, contribute, and provide feedback.
 Conclusion
