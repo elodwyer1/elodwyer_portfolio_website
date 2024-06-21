@@ -96,7 +96,10 @@ defaults:
     values:
       layout: splash
       author_profile: true
-
+      
+collections:
+  projects:
+    output: true
 category_archive:
   type: liquid
   path: /categories/
