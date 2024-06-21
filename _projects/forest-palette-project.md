@@ -7,6 +7,7 @@ layout: single
 
 In this blog post, I'll share my journey of creating a custom color palette package in Python. This package, named "The Forest Palette," provides a curated set of colors inspired by natural forest environments. Let's dive into the process of creating and packaging this color palette for use with matplotlib and other visualization libraries.
 
+![image-center]({{'/assets/images/color_grid.png'| relative_url }}){: .align-center}
 ### Inspiration and Design
 
 The idea for "The Forest Palette" came from my love for nature and the calming hues found in forest landscapes. I wanted to create a versatile palette that could be used in data visualizations, digital art, or any project requiring harmonious color schemes.
@@ -43,7 +44,7 @@ Using setuptools, I created a distributable Python package that includes the col
 
 2. Publishing on PyPI\
 I uploaded the package to [PyPI](https://pypi.org/project/the-forest-palette/1.0.1/) (Python Package Index) to make it accessible to the Python community. Developers and data scientists can now install and use "The Forest Palette" in their projects with a simple pip install the-forest-palette.
-
+![image-center]({{'/assets/images/pypi_forestpalette.png'| relative_url }}){: .align-center}
 #### 5. Hosting on GitHub
 The source code for "The Forest Palette" is hosted on [GitHub](https://github.com/elodwyer1/the-forest-palette), allowing users to explore the code, contribute, and provide feedback.
 Conclusion
@@ -52,4 +53,3 @@ Creating "The Forest Palette" was a rewarding experience, blending creativity wi
 Stay tuned for more updates and additions to "The Forest Palette" as I continue to expand and refine the palette based on community feedback and new inspirations.
 
 Happy coding and happy coloring!
-![image-center]({{'/assets/images/color_grid.png'| relative_url }}){: .align-center}
