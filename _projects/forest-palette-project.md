@@ -2,6 +2,7 @@
 title: "The forest color palette"
 excerpt: "Creating a Custom Color Palette Package in Python"
 layout: single
+classes: wide
 header:
   caption: " "
   overlay_image: /assets/images/Colorful Pastel Modern Personal LinkedIn Banner (1584 x 200 px).png
