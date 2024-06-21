@@ -6,7 +6,7 @@ classes: wide
 author_profile: true
 header:
   caption: " "
-  overlay_image: /assets/images/banner_notext.png
+  overlay_image: /assets/images/banner_notext_nodesign.png
 ---
 
 
@@ -21,7 +21,7 @@ The idea for "The Forest Palette" came from my love for nature and the calming h
 
 #### 1. Color Selection
 
-The first step was to select colors that evoke the essence of a forest: deep greens, earthy browns, serene blues, and hints of foliage-inspired hues. I researched color psychology and trends to ensure the palette was both aesthetically pleasing and functional for different applications.
+The first step was to select colors that evoke the essence of a forest: deep greens, serene blues, and hints of foliage-inspired hues. I wanted to ensure the palette was both aesthetically pleasing and functional for different applications.
 
 #### 2. Defining Color Codes
 
@@ -48,7 +48,9 @@ Using setuptools, I created a distributable Python package that includes the col
 
 2. Publishing on PyPI\
 I uploaded the package to [PyPI](https://pypi.org/project/the-forest-palette/1.0.1/) (Python Package Index) to make it accessible to the Python community. Developers and data scientists can now install and use "The Forest Palette" in their projects with a simple pip install the-forest-palette.
+
 ![image-center]({{'/assets/images/pypi-forestpalette.png'| relative_url }}){: .align-center}
+
 #### 5. Hosting on GitHub
 The source code for "The Forest Palette" is hosted on [GitHub](https://github.com/elodwyer1/the-forest-palette), allowing users to explore the code, contribute, and provide feedback.
 Conclusion
