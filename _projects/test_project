@@ -1,8 +1,6 @@
 ---
 title: "Creating a Custom Color Palette Package in Python"
-header:
-  image: /assets/images/foo-bar-identity.jpg
-  teaser: /assets/images/foo-bar-identity-th.jpg
+layout: single
 ---
 
 
@@ -44,11 +42,17 @@ Packaging and Distribution
 Using setuptools or flit, I created a distributable Python package that includes the color definitions and any necessary metadata.
 
 2. Publishing on PyPI
-I uploaded the package to PyPI (Python Package Index) to make it accessible to the Python community. Developers and data scientists can now install and use "The Forest Palette" in their projects with a simple pip install the-forest-palette.
+I uploaded the package to [PyPI](https://pypi.org/project/the-forest-palette/1.0.1/) (Python Package Index) to make it accessible to the Python community. Developers and data scientists can now install and use "The Forest Palette" in their projects with a simple pip install the-forest-palette.
 
+PyPI: The Forest Palette on PyPI
+3. Hosting on GitHub
+The source code for "The Forest Palette" is hosted on [GitHub](https://github.com/elodwyer1/the-forest-palette), allowing users to explore the code, contribute, and provide feedback.
+
+GitHub: The Forest Palette on GitHub
 Conclusion
 Creating "The Forest Palette" was a rewarding experience, blending creativity with practicality in Python development. Whether you're visualizing data, designing digital artwork, or exploring color psychology, a well-crafted color palette can elevate your projects. I encourage you to explore and experiment with custom color schemes to enhance your creative endeavors.
 
 Stay tuned for more updates and additions to "The Forest Palette" as I continue to expand and refine the palette based on community feedback and new inspirations.
 
 Happy coding and happy coloring!
+![image-center](/assets/images/color_grid.png){: .align-center}
