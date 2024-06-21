@@ -3,6 +3,7 @@ title: "The forest color palette"
 excerpt: "Creating a Custom Color Palette Package in Python"
 layout: single
 classes: wide
+author_profile: true
 header:
   caption: " "
   overlay_image: /assets/images/banner_notext.png
