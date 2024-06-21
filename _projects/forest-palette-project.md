@@ -56,4 +56,4 @@ Creating "The Forest Palette" was a rewarding experience, blending creativity wi
 Stay tuned for more updates and additions to "The Forest Palette" as I continue to expand and refine the palette based on community feedback and new inspirations.
 
 Happy coding and happy coloring!
-![image-center](/assets/images/color_grid.png){: .align-center}
+![image-center]({{'/assets/images/color_grid.png'| relative_url }}){: .align-center}
