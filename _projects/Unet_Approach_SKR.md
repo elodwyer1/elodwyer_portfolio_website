@@ -8,8 +8,6 @@ header:
   overlay_image: /assets/images/banner_notext_nodesign.png
 ---
 
-# Detecting Saturn's Low Frequency Extenions (LFEs) Using Machine Learning
-
 Saturn, with its intricate magnetospheric dynamics, continues to captivate scientists worldwide. Among the celestial marvels it presents, Low Frequency Events (LFEs) in Saturn's radio emissions offer a unique window into its magnetospheric processes. Detecting and categorizing these events accurately not only enhances our understanding of Saturn but also sheds light on the interactions between the planet, its rings, and its moons.
 
 ## Introduction
@@ -54,6 +52,3 @@ For transparency and reproducibility, the research code and dataset details are 
 
 Stay tuned for future updates as we continue to unravel the secrets of Saturn's radio emissions using advanced data science and machine learning techniques.
 
----
-
-Feel free to adjust the links and specific details according to your publication and data repository. This expanded markdown format provides a more comprehensive overview of your research findings and methodology.
