@@ -19,15 +19,16 @@ In a pioneering study recently published in the *Journal of Geophysical Research
 ### Data Acquisition and Preprocessing
 
 The research utilized a meticulously curated dataset consisting of 1,533 radio spectrogram images captured by Cassini. These images were meticulously annotated to indicate the presence or absence of LFEs. The dataset was divided into training (996 images) and validation (537 images) sets, ensuring robust model training and evaluation. To enhance model generalization, data augmentation techniques were employed, including rotation, scaling, and flipping of images.
-
+![model_architecture](assets/images/a-Histograms-for-occurrence-of-Low-Frequency-Extensions.png)
 ### Model Architecture and Training
 
 The heart of the study lies in the custom U-Net architecture, renowned for its effectiveness in image segmentation tasks. The model's convolutional layers were initialized using Glorot uniform weights, and training spanned 132 epochs with mini-batch sizes of 8 images. During training, model performance was validated using the validation set, with weights updated iteratively to optimize predictions.
-![IoU Metrics](path/to/iou_metrics.png)
+![model_architecture](assets/images/Modified-U-Net-architecture.png)
 ### Performance Evaluation
 
 The efficacy of the model was assessed using Intersection over Union (IoU) metrics, measuring the overlap between predicted and ground truth masks. Median IoU values of 0.97 for the testing set and 0.98 for the training set underscored the model's exceptional accuracy in identifying LFEs within Saturn's radio emissions.
-
+![model_architecture](assets/images/Examples-of-well-classified-results.png)
+![model_architecture](assets/images/Examples-of-poorly-classified-results.png)
 ## Results and Insights
 
 ### Output and Catalog Generation
@@ -37,10 +38,12 @@ Following training and validation, the model was deployed to analyze the entire 
 ### Frequency-Time Analysis
 
 Detailed analysis of the frequency-time coordinates of predicted LFEs revealed intriguing patterns. Comparisons with training LFEs showed a consistent linear relationship between frequency extension (Δf) and duration (Δt), affirming the model's capability to capture and classify varying types of LFEs with high fidelity.
+![model_architecture](assets/images/Scatter-plots-of-delta-f-in-kHz-versus-delta-t-in-hours-for-a-Low-Frequency.png)
 
 ### Scientific Implications
 
 The study's findings offer significant implications for our understanding of Saturn's magnetospheric dynamics. By providing a detailed catalog of LFEs and their precise coordinates, researchers worldwide can now delve deeper into statistical studies and explore the breadth of radio signatures arising from complex interactions within Saturn's magnetosphere.
+![model_architecture](assets/images/Six-examples-of-models-prediction-on-unseen-data-from-the-Cassini-Radio-and-Plasma-Wave.png)
 
 ## Conclusion
 
