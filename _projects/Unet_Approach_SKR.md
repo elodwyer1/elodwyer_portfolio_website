@@ -7,7 +7,7 @@ header:
   caption: " "
   overlay_image: /assets/images/banner_notext_nodesign.png
 ---
-
+# 
 Saturn, with its intricate magnetospheric dynamics, continues to captivate scientists worldwide. Among the celestial marvels it presents, Low Frequency Events (LFEs) in Saturn's radio emissions offer a unique window into its magnetospheric processes. Detecting and categorizing these events accurately not only enhances our understanding of Saturn but also sheds light on the interactions between the planet, its rings, and its moons.
 
 ## Introduction
@@ -23,7 +23,7 @@ The research utilized a meticulously curated dataset consisting of 1,533 radio s
 ### Model Architecture and Training
 
 The heart of the study lies in the custom U-Net architecture, renowned for its effectiveness in image segmentation tasks. The model's convolutional layers were initialized using Glorot uniform weights, and training spanned 132 epochs with mini-batch sizes of 8 images. During training, model performance was validated using the validation set, with weights updated iteratively to optimize predictions.
-
+![IoU Metrics](path/to/iou_metrics.png)
 ### Performance Evaluation
 
 The efficacy of the model was assessed using Intersection over Union (IoU) metrics, measuring the overlap between predicted and ground truth masks. Median IoU values of 0.97 for the testing set and 0.98 for the training set underscored the model's exceptional accuracy in identifying LFEs within Saturn's radio emissions.
