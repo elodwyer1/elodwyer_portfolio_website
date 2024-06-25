@@ -1,12 +1,13 @@
 ---
 # Only the main Sass file needs front matter (the dashes are enough)
 ---
-
+$link-color: #006400; // Dark green
+$link-hover-color: darken($link-color, 10%); // Slightly darker green for hover
+$link-visited-color: lighten($link-color, 10%); // Slightly lighter green for visited
 @charset "utf-8";
 
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes";
-link-color: DarkCyan;
 .author__avatar {
   // Adjust the container if needed
   display: flex;  // Ensures the container behaves as a block element and centers the image if required
