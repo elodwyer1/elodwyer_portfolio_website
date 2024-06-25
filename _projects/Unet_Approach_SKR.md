@@ -7,18 +7,19 @@ header:
   caption: " "
   overlay_image: /assets/images/banner_notext_nodesign.png
 ---
-# 
-Saturn, with its intricate magnetospheric dynamics, continues to captivate scientists worldwide. Among the celestial marvels it presents, Low Frequency Events (LFEs) in Saturn's radio emissions offer a unique window into its magnetospheric processes. Detecting and categorizing these events accurately not only enhances our understanding of Saturn but also sheds light on the interactions between the planet, its rings, and its moons.
+
+#  Detecting Saturn's Low Frequency Extensions (LFEs) Using Machine Learning
+Saturn, with its intricate magnetospheric dynamics, continues to captivate scientists worldwide. Low Frequency Extensions (LFEs) in Saturn's radio emissions offer a unique window into its magnetospheric processes. Detecting and categorizing these events accurately will permit us to 
 
 ## Introduction
 
-In a pioneering study recently published in the *Journal of Geophysical Research: Space Physics*, researchers applied a sophisticated machine learning approach to identify and classify LFEs within the extensive 13-year dataset collected by the Cassini spacecraft's Radio and Plasma Wave Science (RPWS) instrument. This study leveraged a modified U-Net neural network architecture, specifically tailored for semantic segmentation tasks, to analyze radio spectrograms and distinguish LFEs from background noise with unprecedented precision.
+In a study recently published in the *Journal of Geophysical Research: Space Physics*, we applied a sophisticated machine learning approach to identify and classify LFEs within the extensive 13-year dataset collected by the Cassini spacecraft's Radio and Plasma Wave Science (RPWS) instrument. This study leveraged a modified U-Net neural network architecture, specifically tailored for semantic segmentation tasks, to analyze radio spectrograms and distinguish LFEs from background noise with unprecedented precision.
 
 ## Methodology
 
 ### Data Acquisition and Preprocessing
 
-The research utilized a meticulously curated dataset consisting of 1,533 radio spectrogram images captured by Cassini. These images were meticulously annotated to indicate the presence or absence of LFEs. The dataset was divided into training (996 images) and validation (537 images) sets, ensuring robust model training and evaluation. To enhance model generalization, data augmentation techniques were employed, including rotation, scaling, and flipping of images.
+The research utilized a curated dataset consisting of 1,533 radio spectrogram images captured by Cassini. These images were annotated to indicate the presence or absence of LFEs. The dataset was divided into training (996 images) and validation (537 images) sets, ensuring robust model training and evaluation. To enhance model generalization, data augmentation techniques were employed, .
 ![model_architecture]({{'assets/images/a-Histograms-for-occurrence-of-Low-Frequency-Extensions.png' | relative_url }}){: .align-center}
 ### Model Architecture and Training
 
