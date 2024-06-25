@@ -6,7 +6,7 @@
 
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes";
-
+link-color: DarkCyan;
 .author__avatar {
   // Adjust the container if needed
   display: flex;  // Ensures the container behaves as a block element and centers the image if required
