@@ -14,7 +14,7 @@ Saturn, with its intricate magnetospheric dynamics, continues to captivate scien
 
 ## Introduction
 
-In a study recently published in the *Journal of Geophysical Research: Space Physics*, we applied a sophisticated machine learning approach to identify and classify LFEs within the extensive 13-year dataset collected by the Cassini spacecraft's Radio and Plasma Wave Science (RPWS) instrument. LFEs are an intensification and extension in frequency range of Saturn's auroral radio emission. These events are linked to Saturn's internal magnetosphere dynamics and the effect of the solar wind compressing the magnetosphere. This study leveraged a modified U-Net neural network architecture, specifically tailored for semantic segmentation tasks, to analyze radio spectrograms and distinguish LFEs from background noise with unprecedented precision.
+In a study recently published in the [*Journal of Geophysical Research: Space Physics*](https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2023JA031926), we applied a sophisticated machine learning approach to identify and classify LFEs within the extensive 13-year dataset collected by the Cassini spacecraft's Radio and Plasma Wave Science (RPWS) instrument. LFEs are an intensification and extension in frequency range of Saturn's auroral radio emission. These events are linked to Saturn's internal magnetosphere dynamics and the effect of the solar wind compressing the magnetosphere. This study leveraged a modified U-Net neural network architecture, specifically tailored for semantic segmentation tasks, to analyze radio spectrograms and distinguish LFEs from background noise with unprecedented precision.
 
 ## Methodology
 
