@@ -92,6 +92,13 @@ defaults:
       layout: single
       author_profile: false
       share: true
+  - scope:
+      path: "certificates"
+      type: certificates
+    values:
+      layout: single
+      author_profile: false
+      share: true
   # _posts
   - scope:
       path: "posts"
