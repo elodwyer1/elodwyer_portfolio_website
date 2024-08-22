@@ -1,0 +1,56 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+$link-color: #006400; // Dark green
+$link-hover-color: darken($link-color, 10%); // Slightly darker green for hover
+$link-visited-color: lighten($link-color, 10%); // Slightly lighter green for visited
+@charset "utf-8";
+
+@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
+@import "minimal-mistakes";
+.author__avatar {
+  // Adjust the container if needed
+  display: flex;  // Ensures the container behaves as a block element and centers the image if required
+  justify-content: center;  // Centers the image horizontally
+  align-items: center;  // Centers the image vertically
+
+  // Set the size of the avatar image
+  img.u-photo {
+    width: 100px;  // Change to desired width
+    height: auto;  // Change to desired height
+    border-radius: 50%;  // This ensures the image remains circular
+  }
+  
+  // Optional: Add responsiveness if needed
+  @include breakpoint($medium) {
+    img.u-photo {
+      width: 120px;  // Adjust size for medium screens
+      height: auto;
+    }
+  }
+
+  @include breakpoint($large) {
+    img.u-photo {
+      width: 140px;  // Adjust size for large screens
+      height: auto;
+    }
+  }
+}
+/* Targeting the .sidebar.sticky class to set its background color */
+.sidebar.sticky {
+  background-color: #f0f0f0; /* Light gray color */
+  
+  // Optional: Additional styles if needed
+  padding: 20px;  // Adds padding to the sidebar content for better spacing
+  border-radius: 5px;  // Rounds the corners of the sidebar for a softer look
+  
+  // Optional: Responsive design tweaks
+  @include breakpoint($medium) {
+    padding: 30px;  // Increase padding on medium screens
+  }
+
+  @include breakpoint($large) {
+    padding: 40px;  // Increase padding on large screens
+  }
+}
+

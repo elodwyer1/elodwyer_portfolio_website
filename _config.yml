@@ -13,19 +13,18 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Beth O'Dwyer's portfolio
+title: ""
 email: odwyerbeth621@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
   line in _config.yml. It will appear in your document head meta (for
   Google search results) and in your feed.xml site description.
-twitter_username: username
-github_username: username
 minimal_mistakes_skin: default
 search: true
 
 header:
-  image: /assets/images/Colorful Pastel Modern Personal LinkedIn Banner (1584 x 200 px).png
+  title: ""
+  image: "/assets/images/Colorful Pastel Modern Personal LinkedIn Banner (1584 x 200 px).png"
 
 # Build settings
 markdown: kramdown
@@ -62,38 +61,52 @@ plugins:
 
 author:
   name   : "Beth O'Dwyer"
-  avatar : "/assets/images/P1082653.jpg"
-  bio    : "Passionate about working with data in all forms.Relevant skills include programming, machine learning,
-            data visualization and problem solving. Excellent communication skills developed through working in a
-            multi-disciplinary team and research collaborations across the globe."
+  avatar : "/assets/images/logo.png"
+  bio    : ""
   links:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
+      url: "https://github.com/elodwyer1"
+    - label: "LinkedIn"
+      icon: "fa-brands fa-linkedin"
+      url: "https://www.linkedin.com/in/elodwyer/"
+    - label: "odwyerbeth621@gmail.com"
+      icon: "fa-solid fa-envelope"
+      url: "mailto:odwyerbeth621@gmail.com"
 
 footer:
   links:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
+      url: "https://github.com/elodwyer1"
+    - label: "LinkedIn"
+      icon: "fa-brands fa-linkedin"
+      url: "https://www.linkedin.com/in/elodwyer/"
 
 defaults:
-  # _posts
+ #_portfolio
   - scope:
-      path: ""
-      type: posts
+      path: "projects"
+      type: projects
     values:
       layout: single
-      author_profile: true
-      read_time: true
-      comments: true
+      author_profile: false
       share: true
-      related: true
+  # _posts
+  - scope:
+      path: "posts"
+      type: posts
+    values:
+      layout: posts
+      author_profile: true
+      read_time: False
+      comments: False
+      share: False
+      related: False
   # _pages
   - scope:
       path: "_pages"
       type: pages
     values:
-      layout: splash
+      layout: single
       author_profile: true
-      
