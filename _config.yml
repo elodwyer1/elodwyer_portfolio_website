@@ -98,7 +98,7 @@ collections:
   projects:
     output: true
     permalink: /projects/:path/
-# certificates collection
+#certificates collection
   certificates:
     output: true
     permalink: /certificates/:path/
