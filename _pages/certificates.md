@@ -1,8 +1,8 @@
 ---
 title: Certificates
 layout: collection
-permalink: /Certificates/
-collection: Certificates
+permalink: /certificates/
+collection: certificates
 entries_layout: grid
 classes: wide
 ---
